@@ -1,0 +1,71 @@
+body{
+    font-family: '微軟正黑體';
+    background-color: #e8e8d0;
+}
+
+.header{
+    background: #009100;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.filter{
+    text-align: center;
+}
+
+.search{
+    margin: 10px;
+}
+.check{
+    margin: 10px;
+}
+
+.title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Charge{
+    display: inline-block;
+    width: 30%;
+}
+.Location{
+    display: inline-block;
+    width: 30%;
+}
+.Address{
+    display: inline-block;
+    width: 30%;
+}
+
+.list{
+    margin-left:2%;
+    margin-right:2%;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.list:hover{
+    background: #dedebe;
+    padding-left: 10px;
+}
+.charge{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+.location{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+.address{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
