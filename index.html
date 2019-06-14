@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +9,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Electric-Moto-Station</title>
 </head>
-<body>
-    <div class = header><h1>高雄市電動機車充電站</h1></div>
-    <div class = filter>
-        <input type="text" class="search" placeholder="搜尋"></input>
-        <input type="checkbox" class="check" name="status1" value="free">免費
-        <input type="checkbox" class="check" name="status1" value="coin">投幣式
-    </div>    
 
-    <div id = content>
-        <div class= title>
-            <div class= Charge>充電收費</div>
-            <div class= Location>地點</div>
-            <div class= Address>詳細地址</div>
+<body>
+    <div class=header>
+        <h1>高雄市電動機車充電站</h1>
+    </div>
+    <div class=filter>
+        <input type="text" class="search" placeholder="搜尋"></input>
+        <input type="checkbox" id="check1" checked="checked" name="status" value="free">免費
+        <input type="checkbox" id="check2" checked="checked" name="status" value="coin">投幣式
+    </div>
+
+    <div id=content>
+        <div class=title>
+            <div class=Charge>充電收費</div>
+            <div class=Location>地點</div>
+            <div class=Address>詳細地址</div>
         </div>
 
-        <div id= content_list>
+        <div id=content_list>
             <!-- <div class=list>
                 <div class= charge>免費</div>
                 <div class= location>新興區公所</div>
@@ -35,12 +39,9 @@
                     <div class= address>高雄市新興區中正三路34號1樓(室內停車場)</div>
                 </div> -->
         </div>
-
-
     </div>
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="all.js"></script>
 </body>
+
 </html>
